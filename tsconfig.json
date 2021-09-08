@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "rootDir": "src",
+    "outDir": "./dist",
+    "baseUrl": "src",
+    "allowJs": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "target": "ES2019",
+    "paths": {
+      "@/*": ["*"]
+    },
+  },
+  "include": [
+    "src"
+  ]
+}
